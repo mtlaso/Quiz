@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:overScrollMode="always"
+    android:scrollbars="vertical"
+    tools:context=".MainMenuActivity">
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="179dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtViewConnectedAs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="TextView"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txtViewLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:height="48dp"
+        android:backgroundTint="#00AABB"
+        android:clickable="true"
+        android:elegantTextHeight="true"
+        android:foregroundTint="#F60B0B"
+        android:longClickable="true"
+        android:onClick="Quitter"
+        android:text="@string/logout_text"
+        android:textColor="#0097A7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="Jouer"
+        android:text="@string/new_game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow" />
+
+    <Button
+        android:id="@+id/btnStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="AfficherStats"
+        android:text="@string/show_stats"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="AfficherConfiguration"
+        android:text="@string/show_config"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnStats" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

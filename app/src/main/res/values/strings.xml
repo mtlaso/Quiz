@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name" translatable="false">Quizzy</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="undefined_error">not defined.</string>
+    <string name="login_wrong_credentials">Wrong Username and/or Passoword,</string>
+    <string name="connected_as">Connected as</string>
+    <string name="logout_text">Log Out</string>
+    <string name="logout_message">You have logged out.</string>
+    <string name="new_game">Start new game</string>
+    <string name="show_stats">See game stats</string>
+    <string name="gamebtn_true">True</string>
+    <string name="gamebtn_false">False</string>
+    <string name="game_score">Score:</string>
+    <string name="game_ended">Game ended!</string>
+    <string name="game_correct">Correct!</string>
+    <string name="game_incorrect">Incorrect !</string>
+    <string name="stats_title">Your stats:</string>
+    <string name="stats_adapter_score">Score:</string>
+    <string name="stats_adapter_date">Date:</string>
+    <string name="game_sharescore_text">Share your score</string>
+    <string name="game_shareintent_text">My Score was:</string>
+    <string name="game_shareintent_alert">You need to finish first to share your score!</string>
+    <string name="config_title">Configuration</string>
+    <string name="config_new_username">New username</string>
+    <string name="config_save">Save</string>
+    <string name="show_config">Configure app</string>
+    <string name="config_info_saved">New username saved.</string>
+</resources>

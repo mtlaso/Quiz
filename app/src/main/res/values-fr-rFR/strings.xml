@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="btn_login">Se Connecter</string>
+    <string name="undefined_error">non défini.</string>
+    <string name="login_wrong_credentials">Erreur d\'utilisateur et/ou mot de passe.</string>
+    <string name="connected_as">Connecté en tant que</string>
+    <string name="logout_text">Quitter</string>
+    <string name="logout_message">Vous avez quitté.</string>
+    <string name="new_game">Commencer une nouvelle partie</string>
+    <string name="show_stats">Voir mes statistiques</string>
+    <string name="gamebtn_true">Vrai</string>
+    <string name="gamebtn_false">Faux</string>
+    <string name="game_score">Score :</string>
+    <string name="game_ended">Fin de jeu !</string>
+    <string name="game_correct">Correct !</string>
+    <string name="game_incorrect">Incorrect !</string>
+    <string name="stats_title">Vos stats :</string>
+    <string name="stats_adapter_score">Score :</string>
+    <string name="stats_adapter_date">Date :</string>
+    <string name="game_sharescore_text">Partager votre score</string>
+    <string name="game_shareintent_text">J\'ai eu un score de :</string>
+    <string name="game_shareintent_alert">Vous devez finir avant de partager votre score!</string>
+    <string name="config_title">Configuration</string>
+    <string name="config_new_username">Nouveau nom d\'utilisateur</string>
+    <string name="config_save">Sauvegarder</string>
+    <string name="show_config">Configurer l\'application</string>
+    <string name="config_info_saved">Nouveau nom d\'utilisateur sauvegardé.</string>
+</resources>
